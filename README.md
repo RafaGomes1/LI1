@@ -1,31 +1,17 @@
 # Laboratórios de Informática I
 
-## Repositório
-
-O sistema de controlo de versões utilizado é o git. O repositório encontra-se disponível [nesta organização](https://gitlab.com/uminho-di/li1/2122). Para obter o repositório na sua máquina, garanta que tem a chave pública SSH adicionada na sua conta do GitLab com o email instituicional ([User Settings/SSH Keys](https://gitlab.com/-/profile/keys)), depois basta efetuar clone ao repositório.
+## Instalar e Correr o Jogo
 
 ```bash
-$ git clone git@gitlab.com:uminho-di/li1/2122/2021li1g056.git
-$ cd 2021li1g056 
+$ cabal update
+$ cabal install --lib gloss
 ```
-
-## Testes
-
-O projecto contém testes unitários escritos usando a biblioteca [HUnit](https://hackage.haskell.org/package/HUnit). Os testes podem ser executados da seguinte forma.
 
 ```bash
-$ ghci -i="src" -i="tests" tests/Tests.hs
->>> runTestsT1 -- Correr os testes tarefa 1
->>> runTestsT2 -- Correr os testes tarefa 2
->>> runTestsT3 -- Correr os testes tarefa 3
->>> runTestsT4 -- Correr os testes tarefa 4
->>> runAllTests -- Correr todos os testes
+$ cd src
+$ ghc Tarefa5_2021li1g056.hs or ghc -package random Tarefa5_2021li1g056.hs
+$ ./Tarefa5_2021li1g056
 ```
-
-## Grupo 56
-
-- **A96452** Afonso Antunes Martins;
-- **A96208** Rafael João Ferreira Gomes;
 
 ## Menu Inical
 ![(Menu Inical](https://github.com/RafaGomes1/LI1-2021/blob/main/images/MenuInicial.png?raw=true)
@@ -38,6 +24,9 @@ $ ghci -i="src" -i="tests" tests/Tests.hs
 
 ## Níveis
 ![Niveis](https://github.com/RafaGomes1/LI1-2021/blob/main/images/N%C3%ADveis.png?raw=true)
+
+## Menu Jogadores
+![Jogadores](https://github.com/RafaGomes1/LI1-2021/blob/main/images/Her%C3%B3is.png?raw=true)
 
 ## Deadpool
 ![Deadpool](https://github.com/RafaGomes1/LI1-2021/blob/main/images/Deadpool.png?raw=true)
@@ -66,5 +55,5 @@ $ ghci -i="src" -i="tests" tests/Tests.hs
 ## Mensagem de Vitória
 ![Mensagem](https://github.com/RafaGomes1/LI1-2021/blob/main/images/EndGame.png?raw=true)
 
-## Modo de Jogo com Temporizador
-![Timer](https://github.com/RafaGomes1/LI1-2021/blob/main/images/Timer.png?raw=true)
+## Modo de Jogo em Contra-Relógio
+![Timer](https://github.com/RafaGomes1/LI1-2021/blob/main/images/Timer2.png?raw=true)
