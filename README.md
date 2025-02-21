@@ -60,10 +60,4 @@ $ ./Tarefa5_2021li1g056
 
 ---
 
-<h3 align="center"> 🎖️ Nota 🎖️ </h3>
-
-<div align="center">
-
-18 / 20
-
-</div>
+<h3 align="center"> 🎖️ Nota - 18 /  20 🎖️ </h3>
