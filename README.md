@@ -57,3 +57,13 @@ $ ./Tarefa5_2021li1g056
 
 ## Modo de Jogo em Contra-Relógio
 ![Timer](https://github.com/RafaGomes1/LI1-2021/blob/main/images/Timer2.png?raw=true)
+
+---
+
+<h3 align="center"> 🎖️ Nota 🎖️ </h3>
+
+<div align="center">
+
+18 / 20
+
+</div>
